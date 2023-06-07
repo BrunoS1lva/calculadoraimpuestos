@@ -1,0 +1,2 @@
+/Crear una alerta con un efecto blur cuando le das a calcular donde te aparezcan todos los datos
+/Crear una seccion donde YA aparezcan los precios de los mas importantes servicios de streaming.

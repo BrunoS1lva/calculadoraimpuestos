@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&family=Roboto:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=Noto+Sans:wght@400;500;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-image: aqua;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#main-card {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 400px;
+
+    background-color: darksalmon;
+
+    padding: 20px;
+}
+
+#title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 90%;
+}
+
+#subtitle {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#input-dinero {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border-style: none;
+
+    background-color: bisque;
+
+    height: 50px;
+    width: 80%;
+
+    padding: 10px;
+}
+
+#btn-calcular {
+    border-radius: 8px;
+    border-style: none;
+    background-color: aliceblue;
+
+    height: 35px;
+    width: 50%;
+
+    margin-bottom: 20px;
+}
+
+#btn-calcular:hover {
+    cursor: pointer;
+}
